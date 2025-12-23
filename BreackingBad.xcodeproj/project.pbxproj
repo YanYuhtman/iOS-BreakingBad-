@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		2C035A6C2EF833A70095F6C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C035A242EF823410095F6C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C035A2B2EF823410095F6C1;
+			remoteInfo = BreackingBad;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2C035A2C2EF823410095F6C1 /* BreackingBad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreackingBad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C035A682EF833A70095F6C1 /* BreackingBadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreackingBadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = BreackingBad;
 			sourceTree = "<group>";
 		};
+		2C035A692EF833A70095F6C1 /* BreackingBadTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BreackingBadTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2C035A292EF823410095F6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C035A652EF833A70095F6C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				2C035A2E2EF823410095F6C1 /* BreackingBad */,
+				2C035A692EF833A70095F6C1 /* BreackingBadTests */,
 				2C035A2D2EF823410095F6C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				2C035A2C2EF823410095F6C1 /* BreackingBad.app */,
+				2C035A682EF833A70095F6C1 /* BreackingBadTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 2C035A2C2EF823410095F6C1 /* BreackingBad.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2C035A672EF833A70095F6C1 /* BreackingBadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C035A6E2EF833A70095F6C1 /* Build configuration list for PBXNativeTarget "BreackingBadTests" */;
+			buildPhases = (
+				2C035A642EF833A70095F6C1 /* Sources */,
+				2C035A652EF833A70095F6C1 /* Frameworks */,
+				2C035A662EF833A70095F6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C035A6D2EF833A70095F6C1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2C035A692EF833A70095F6C1 /* BreackingBadTests */,
+			);
+			name = BreackingBadTests;
+			packageProductDependencies = (
+			);
+			productName = BreackingBadTests;
+			productReference = 2C035A682EF833A70095F6C1 /* BreackingBadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,10 @@
 				TargetAttributes = {
 					2C035A2B2EF823410095F6C1 = {
 						CreatedOnToolsVersion = 16.2;
+					};
+					2C035A672EF833A70095F6C1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2C035A2B2EF823410095F6C1;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				2C035A2B2EF823410095F6C1 /* BreackingBad */,
+				2C035A672EF833A70095F6C1 /* BreackingBadTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2C035A2A2EF823410095F6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C035A662EF833A70095F6C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2C035A642EF833A70095F6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C035A6D2EF833A70095F6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C035A2B2EF823410095F6C1 /* BreackingBad */;
+			targetProxy = 2C035A6C2EF833A70095F6C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2C035A392EF823420095F6C1 /* Debug */ = {
@@ -256,6 +331,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -263,8 +339,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.BreackingBad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -281,6 +360,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -288,8 +368,50 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.BreackingBad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2C035A6F2EF833A70095F6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BreackingBadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreackingBad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreackingBad";
+			};
+			name = Debug;
+		};
+		2C035A702EF833A70095F6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BreackingBadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreackingBad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreackingBad";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -310,6 +432,15 @@
 			buildConfigurations = (
 				2C035A3C2EF823420095F6C1 /* Debug */,
 				2C035A3D2EF823420095F6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C035A6E2EF833A70095F6C1 /* Build configuration list for PBXNativeTarget "BreackingBadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C035A6F2EF833A70095F6C1 /* Debug */,
+				2C035A702EF833A70095F6C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

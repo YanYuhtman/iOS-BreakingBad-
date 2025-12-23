@@ -1,0 +1,17 @@
+https://breaking-bad-api-six.vercel.app/api
+https://breaking-bad-api-six.vercel.app/api/characters/random
+https://breaking-bad-api-six.vercel.app/api/quotes/random
+https://breaking-bad-api-six.vercel.app/api/quotes?id=27
+
+https://breaking-bad-api-six.vercel.app/api/characters?category=Breaking+Bad
+https://breaking-bad-api-six.vercel.app/api/characters?category=Better+Call+Saul
+
+
+
+Fetching randome quote:
+https://breaking-bad-api-six.vercel.app/api/quotes/random?production=Breaking+Bad
+https://breaking-bad-api-six.vercel.app/api/quotes/random?production=Better+Call+Saul
+
+Fetching character by name:
+https://breaking-bad-api-six.vercel.app/api/characters?name=Jesse%20Pinkman
+
